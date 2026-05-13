@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Conda
+.conda/
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Data and outputs
+data/
+datasets/
+outputs/
+checkpoints/
+models/
+runs/
+wandb/
+
+# PyTorch / ML model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Environment files with secrets
+.env
+.env.*
